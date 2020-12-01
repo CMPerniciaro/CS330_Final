@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title aria-labelledby="About Page">About Page</title>
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+       <nav aria-labelledby="nav-bar">
+           <ul role="menu" id="nav-bar">
+               <li role="menu-item">
+                   <a href="index.html" aria-labelledby="Home Button">Home</a>
+               </li>
+               <li role="menu-item">
+                   <a href="projects.html" aria-labelledby="Project Button">Projects</a>
+               </li>
+               <li role="menu-item">
+                   <a aria-current="page" href="about.html" aria-labelledby="About Button">About Me</a>
+               </li>
+           </ul>
+       </nav>
+     
+       <header class="about-header">
+           <p aria-labelledby="Hello, I'm" class="about-header-hi">Hello, I'm</p>
+           <h1 aria-labelledby="Carolyn" class="about-header-name">Carolyn</h1>
+       </header>
+       
+       <div class="about-me" aria-label="about-me-div">
+           <div class="intro1" aria-label="first-question-div">
+               <h1 aria-labelledby="First Question">Who am I?</h1>
+               <p aria-labelledby="First Question Answer">
+                   I am a new graduate student at Northwestern University. I am pursuing my masters in computer science.
+               </p>
+               <p aria-labelledby="First Question Answer">
+               I attended the University of Columbia-Missouri for my undergraduate where I recieved my B.S. in Mathematics and my B.S. in Computer Science.
+               </p>
+           </div>
+           
+           <div class="intro2" aria-label="second-question-div">
+               <h1 aria-labelledby="About me">About Me</h1>
+               <h2 aria-labelledby="hobbies">What are my favorite hobbies?</h2>
+               <p aria-labelledby="hobby-answers">One of my newer hobbies is biking! I love riding along the Lakefront trail.</p>
+               <p aria-labelledby="hobby-answers">I really like to hike and run in the warmer weather.</p>
+               <h2 aria-labelledby="graduate-school">Why am I in graduate school?</h2>
+               <p aria-labelledby="graduate-school-answers">
+                   I want to expand my knowledge, and gain a deeper understanding of computer science concepts.
+               </p>
+               <h2 aria-labelledby="where from">Where am I from?</h2>
+               <p aria-labelledby="where-from-answer">I am from St. Louis, Missouri. I moved to Chicago around 5 months ago!</p>
+               <h2 aria-labelledby="Resume">My Resume</h2>
+               <a href="Resume_Feb.pdf" aria-labelledby="Resume">Resume</a>
+           </div>
+       </div>
+       <footer role="footer" class="about-footer">
+           <p aria-labelledby="Contact Me">Contact Me</p>
+           <ul role="menu" class="social">
+               <li role="menu-item">
+                   <a class = "about-social-link" href="https://github.com/CMPerniciaro" aria-labelledby="GitHub Link">GitHub</a></li>
+               <li role="menu-item">
+                   <a class = "about-social-link" href="mailto:carolynperniciaro2022@u.northwestern.edu" aria-labelledby="Email Link">Email</a>
+               </li>
+           </ul>
+       </footer>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title aria-labelledby="Home Page">Home Page</title>
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+       <nav aria-labelledby="nav-bar">
+           <ul role="menu" id="nav-bar">
+               <li role="menu-item">
+                   <a aria-current="page" href="index.html" aria-labelledby="Home Button">Home</a>
+               </li>
+               <li role="menu-item">
+                   <a href="projects.html" aria-labelledby="Project Button">Projects</a>
+               </li>
+               <li role="menu-item">
+                   <a href="about.html" aria-labelledby="About Button">About Me</a>
+               </li>
+           </ul>
+       </nav>
+       
+       <header class="index-background-img">
+           <div class="home-text" aria-label="welcome-div">
+               <p class="index-header" aria-labelledby="homepage-welcome">Welcome</p>
+           </div>
+       </header>
+       
+       <div class="home-text index-sub-header" aria-label="description-div">
+           <p aria-labelledby="click-pictures-for-projects">Click on the pictures below to be redirected to the projects.</p>
+           <p aria-labelledby="click-titles-for-descriptions">
+               Click on the project titles to be redirected to descriptions of the projects.
+           </p>
+       </div>
+       
+       <div role="project-display" class="img-div" aria-label="image-div"> 
+           <div class="project-images">
+               <a href="https://balsamiq.cloud/sen2rvy/pyenm1q" aria-labelledby="link-to-wireframe-project">
+                   <img class="image2" src="images/wfp.jpg" alt="wireframe-image">
+               </a>
+               <div class="container" aria-label="image-caption-div">
+                   <a href="projects.html" aria-labelledby="link-to-wireframe-description">
+                       <p aria-labelledby="Wireframe-Prototype">Wireframe Prototype</p>
+                   </a>
+               </div>
+           </div>
+           
+           <div class="project-images">
+               <a href="starter2/albums.html" aria-labelledby="link-to-iPod-project">
+                   <img class="image2" src="images/ipod_img.jpg" alt="ipod-image">
+               </a>
+               <div class="container">
+                   <a href="projects.html#target" aria-labelledby="link-to-iPod-description"> 
+                       <p aria-labelledby="iPod Project">iPod Project</p>
+                   </a>
+               </div>
+           </div>
+       </div>
+    </body>
+</html>

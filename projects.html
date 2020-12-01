@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title aria-labelledby="Project Pgae">Project Page</title>
+      <link rel="stylesheet" href="stylesheet.css">
+   </head>
+   <body>
+       <nav aria-labelledby="nav-bar">
+           <ul role="menu" id="nav-bar">
+               <li role="menu-item">
+                   <a href="index.html" aria-labelledby="Home Button">Home</a>
+               </li>
+               <li role="menu-item">
+                   <a aria-current="page" href="projects.html" aria-labelledby="Project Button">Projects</a>
+               </li>
+               <li role="menu-item">
+                   <a href="about.html" aria-labelledby="About Button">About Me</a>
+               </li>
+           </ul>
+       </nav>
+    
+       <div class="project-text" aria-label="project-description-div">
+            <div class="wireframe-text" aria-label="wireframe-project-div">
+                <h2 aria-labelledby="Wireframe Prototype">Wireframe Prototype</h2>
+                <p aria-labelledby="Wireframe-Prototype Description">The Wireframe Prototype outlines a potential implementation of a digital library and the potential functionalities it could possess.</p>
+                <p aria-labelledby="Wireframe-Prototype Description">Some of the potential functionalities a user has are adding and removing books from their different libraries and also being able to select books from an in-application book selection that is constantly updated.</p>
+                
+                <h5 class="project-header" aria-labelledby="Home Page Example">Home Page Example</h5>
+                <img class="project-image" src="images/wfp_home.png" alt="wpf-home-page">
+                
+                <p aria-labelledby="Wireframe-Prototype Description">The home page is where users can scroll through new books to add to their libraries.</p>
+                <h5 class="project-header" aria-labelledby="Book Page Example">Book page Example</h5>
+                <img class="project-image" src="images/book_ex.png" alt="book-example">
+                <p aria-labelledby="Wireframe-Prototype Description">Users can select a book, read a description, and decide to add it to their library.</p>
+           </div>
+       
+           <div class="ipod-project" aria-label="iPod-project-div">
+               <h2 id="target" aria-labelledby="iPod Project">iPod Project</h2>
+               <p aria-labelledby="iPod Project Description">
+                   The iPod Project uses HTML and JavaScript to create a functional iPod.
+               </p>
+               <img class="project-image" src="images/ipod_home.png" alt="ipod-image">
+               <img class="project-image" src="images/player_ex.png" alt="player-example"> 
+               <p aria-labelledby="iPod Project Description">
+                   The user can select an album (image 1), which directs them to a song list. From there, they can select a song for the iPod to play.
+               </p>
+               <p aria-labelledby="iPod Project Description">Once they select a song, the iPod will play the song (image 2).</p>
+           </div>
+       </div>
+   </body>
+</html>

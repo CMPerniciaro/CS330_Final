@@ -1,0 +1,68 @@
+<html>
+<header>
+   <title>Music Player</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+</header>
+    <body>
+        <div id="screen">
+            <div class="head-bar">
+                <div class="back-button">
+                    <a href="songs.html">
+                        <i class="material-icons">arrow_back</i>
+                    </a>
+                    
+                </div>
+            </div>
+         
+            <img class="player-album-art" src="images/crybaby.jpg" alt="Crybaby Album Cover"/>
+            <div class="player-song-info">
+                <p>Crybaby</p>
+                <p id="player-song-name"><em>Crybaby</em> - Melanie Martinez</p>
+            </div>
+            
+        
+            <div class="range">
+                <input id="player-time" type="range" min="0" max="180" value="0">
+            </div>
+
+            <div>
+                <div id="time-elapsed">0:00</div>
+                <div id="time-total">3:00</div>
+            </div>
+            
+            <div class="player-controls">
+                <button onclick="prevSong()"> 
+                    <i class="material-icons" id="skip-previous">skip_previous</i>
+                </button>
+                <button onclick="switchPlay()">
+                    <i class="material-icons" id="play-pause">play_arrow</i>
+                </button>
+                <button onclick="nextSong()">
+                    <i class="material-icons" id="skip-next">skip_next</i>
+                </button>
+            </div>
+            <div class="volume-bar">
+                <div class="volume-icon">
+                    <i class="material-icons">volume_down</i>
+                </div>
+                <div class="volume-level" id="vl0"></div>
+                <div class="volume-level" id="vl1"></div>
+                <div class="volume-level" id="vl2"></div>
+                <div class="volume-level" id="vl3"></div>
+                <div class="volume-level" id="vl4"></div>
+                <div class="volume-level" id="vl5"></div>
+            </div>
+            <div class="volume-rocker">
+                <button class="down" onclick="volDown()">&mdash;</button>
+                <button class="up" onclick="volUp()">+</button>
+            </div>
+
+        </div>
+        <script src="ipod.js"></script>
+    </body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->

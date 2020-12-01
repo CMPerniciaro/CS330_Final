@@ -1,0 +1,198 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* about me */
+body {
+    color: black;
+    font-size: 1em;
+    font-family: "Gentium Book Basic", "Helvetica Neue", sans-serif;
+}
+
+.about-header {
+  padding: 100px 0;
+  background-image: url("images/skyline.jpeg");
+  background-size: cover;
+  /*background-repeat: no-repeat;*/
+  border-top: solid 20px lightgrey;
+}
+
+.about-header-hi {
+    margin-bottom: 5px;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 40px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.about-header-name {
+    color: white;
+    margin-top: 5px;
+    font-family: "Gentium Book Basic", "Helvetica Neue", sans-serif;
+    font-weight: bold;
+    font-size: 100px;
+    text-align: center;
+}
+
+.about-me {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+}
+
+.intro1 > p{
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.intro2 {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+}
+
+.intro2 > h2 {
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Layout */
+    margin: 2em 0 1em 0;
+}
+
+.about-footer {
+  margin: 50px 0;
+  padding: 20px 0;
+  text-align: center;
+  background-color: lightgrey;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 300;
+    letter-spacing: 0.05em;
+}
+.social > li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.about-footer > p {
+  color: white;
+    font-weight: bold;
+}
+.about-social-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .about-header {
+        padding: 3em 0;
+    }
+    .about-header-name {
+        font-size: 3em;
+    }
+    .about-footer {
+        padding: 2em 2.5em;
+  }
+}
+    
+/* index.html */
+
+
+.home-text {
+    text-align: center;
+}
+
+.index-background-img {
+padding: 100px 0;
+  background-image: url("images/html_img.jpg");
+  background-size: cover;
+  border-top: solid 20px lightgrey;
+}
+
+.index-header {
+    margin-top: -20px;
+    margin-bottom:5px;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 100px;
+    color: white;
+}
+
+.index-sub-header {
+    margin-top: 30px;
+    color: black;
+    font-family: "Gentium Book Basic", Georgia, serif;
+    font-size: 20px;
+    
+}
+
+.img-div {
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+div.project-images {
+    width: 25%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 30px;
+    display: inline-block;
+}
+
+.image {
+    width: 100%;
+}
+
+.image2 {
+    width: 100%;
+    height: 244px;;
+}
+
+div.container {
+  text-align: center;
+
+}
+
+/* projects.html */
+
+.project-text {
+    text-align: center;
+}
+
+.wireframe-text {
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.project-image {
+    width: 300px;
+}
+
+.ipod-project {
+    margin-top: 30px;
+}
+
+.project-header {
+    margin-bottom: -1px;
+}
